@@ -1,3 +1,10 @@
-Various libraries that I either have updated (from others) or created myself
+Various libraries that I either have updated (from others) or created myself.
+
+Download and copy the desired lib to your Arduino libraries folder. The default locations for these are:
+On your Mac:: In (home directory)/Documents/Arduino/libraries
+On your PC:: My Documents -> Arduino -> libraries
+On your Linux box:: (home directory)/sketchbook/libraries
+
+You may need to create the "libraries" subfolder if you haven't done so already.
 
 See each lib for it's License.
