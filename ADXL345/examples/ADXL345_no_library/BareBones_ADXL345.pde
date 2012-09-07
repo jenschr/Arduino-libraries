@@ -1,12 +1,23 @@
-// Bare bones ADXL345 i2c example for Arduino 1.0
-// by Jens C Brynildsen <http://www.flashgamer.com>
-// This version is not reliant of any external lib
-
-// Demonstrates use of ADXL345 (using the Sparkfun ADXL345 breakout) with i2c communication
-// Datasheet http://www.sparkfun.com/datasheets/Sensors/Accelerometer/ADXL345.pdf
-// If you need more advanced features such as freefall and tap detection, check out
-// https://github.com/jenschr/Arduino-libraries
-// (Adapted for Arduino 1.0 from http://code.google.com/p/adxl345driver)
+/************************************************************************
+* This program is free software; you can redistribute it and/or modify *
+* it under the terms of the GNU License V2.                            *
+* This program is distributed in the hope that it will be useful,      *
+* but WITHOUT ANY WARRANTY; without even the implied warranty of       *
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the        *
+* GNU General Public License, version 2 for more details               *
+*                                                                      *
+* Bare bones ADXL345 i2c example for Arduino 1.0                       *
+* by Jens C Brynildsen <http://www.flashgamer.com>                     *
+* This version is not reliant of any external lib                      *
+* (Adapted for Arduino 1.0 from http://code.google.com/p/adxl345driver)*
+*                                                                      *
+* Demonstrates use of ADXL345 (using the Sparkfun ADXL345 breakout)    *
+* with i2c communication. Datasheet:                                   *
+* http://www.sparkfun.com/datasheets/Sensors/Accelerometer/ADXL345.pdf *
+* If you need more advanced features such as freefall and tap          *
+* detection, check out:                                                *
+* https://github.com/jenschr/Arduino-libraries                         *
+***********************************************************************/
 
 // Cabling for i2c using Sparkfun breakout with an Arduino Uno / Duemilanove:
 // Arduino <-> Breakout board
@@ -23,8 +34,6 @@
 // 3.3v     -  CS
 // 20       -  SDA
 // 21       -  SLC
-
-// This example code is in the public domain.
 
 #include <Wire.h>
 
