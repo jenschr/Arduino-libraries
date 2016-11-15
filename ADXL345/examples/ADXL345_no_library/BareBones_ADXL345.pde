@@ -53,7 +53,7 @@ char DATAZ1 = 0x37;	//Z-Axis Data 1
 void setup()
 {
   Wire.begin();        // join i2c bus (address optional for master)
-  Serial.begin(57000);  // start serial for output. Make sure you set your Serial Monitor to the same!
+  Serial.begin(57600);  // start serial for output. Make sure you set your Serial Monitor to the same!
   Serial.print("init");
   
   //Put the ADXL345 into +/- 4G range by writing the value 0x01 to the DATA_FORMAT register.
